@@ -1,0 +1,108 @@
+*{margin: 0;padding: 0;}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+    background-color: #c0b283;
+    height: 50px;
+    margin-bottom: 15px;
+}
+aside{
+    width: 200px;
+    float: left;
+}
+.content{
+    width: 740px;
+    float: right;
+    min-height: 300px;
+    border: 1px solid #d3d3d3;
+}
+footer{
+    clear: both;
+    height: 80px;
+    background-color: #EBEBEB;
+    color: #555;
+    margin-top: 15px;
+}
+header h1{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #fff;
+    text-indent: -999px;
+    height: 50px;
+    width: 180px;
+    background:url('../images/logo.png');
+}
+.content p{
+    padding: 10px 15px;
+    text-indent: 2em;
+    line-height: 1.8;
+}
+.box{
+    border: 1px solid #d3d3d3;
+    background-color: #fff;
+    /*padding-bottom: 20px;*/
+}
+.box h2{
+    color: #fff;
+    font-size: 16px;
+    background: #c0b288;
+    background-size:100% 100%;
+    line-height: 42px;
+    padding-left: 16px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.nav ul {
+    list-style: none;
+    padding: 20px 8px;
+
+}
+.nav li{
+    /*margin-bottom: 5px;
+    margin-left: 20px;*/
+    border-bottom: 1px dotted #fff;
+}
+.nav ul a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+    /*width: 100px;*/
+    line-height: 36px;
+    border-left: 8px solid #876633;
+    background-color: #BC9F77;
+    padding-left: 20px;
+}
+.nav a:hover{
+    background-color:#DDA52D ;
+    border-left: 8px solid #C18A26;
+    color: #fff;
+}
+footer p{
+    text-align: center;
+    line-height: 80px;
+    color: #888;
+}
+.content h2{
+    padding: 10px 15px;
+    color: #333;
+    font-size: 16px;
+    /*border-bottom: 1px solid #aaa;*/
+    background: #f0f0f0 url('../images/bglogo.png') no-repeat right top;
+    background-size: 85px,130px;
+}
+.wrapper{
+    margin-left: 20px;
+    width: 200px;
+    margin: 10px 10px;
+    display: inline-block;
+
+}
+.comment_table{
+    font-size: 12px;
+}
+.textarea1{
+    height:400px;
+    max-height:500px
+}

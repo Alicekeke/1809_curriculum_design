@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            background-color: rgb(203,203,201)
+        }
+       .login-box{
+        display: flex;
+        justify-content: space-between;
+         }
+         .login-img{
+        display:block;
+        width: 534px;height: 400px;
+
+         }
+         .login-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 330px;height: 330px;
+        padding: 20px;
+        /* padding-top: 0px; */
+        margin-right: 30px;
+        margin-top: 100px;
+        border: 4px solid#666666;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 16px#666666
+        }
+         .login-wrap h2{
+            text-align: center;
+        }
+       
+        .login-wrap input{
+            outline-style: none;
+            border: 0px;
+            /* border-radius: 4px; */
+            padding: 5px 5px;
+            width: 290px;
+            font-size: 16px;
+        }
+        .login-wrap .submit input{
+            margin-top: 60px;
+        }
+        .login-wrap p:focus{
+            border-color: #666666;
+            outline: 0;
+    }
+   /* .login-wrap p:nth-of-type(3){
+         background-color: #66afe9;
+        justify-content: center;
+        color:#fff; 
+    }*/
+    p{
+        height: 30px;
+        width: 300px;
+        border: 5px solid #666666;
+    }
+    p:hover{
+        outline: 9999px solid #00000088;
+    }
+    .login-wrap label input{
+       
+        width: 33px;
+    }
+    </style>
+</head>
+<body>
+   
+    <div class="login-box">
+
+    <div class="login-img">
+        <img src="images/loginBackg1.jpg" alt="登录">
+    </div>
+    <div class="login-wrap">
+            <form action="check.php" method="post" name="f1">
+                <h2>用户登录</h2>
+                <p>
+                     <input type="text" name="username" placeholder="用户名">
+                 </p>
+                  <p>
+                     <input type="password" name="password" placeholder="密码">
+                  </p>
+                  <label>
+                      <input type="radio" name="sf" value="1" checked>读者
+                  </label>
+                  <label>
+                    <input type="radio" name="sf" value="2">作者
+                </label>
+                <label>
+                    <input type="radio" name="sf" value="3">管理员
+                </label>
+                <span class="submit">
+                     <input type="button" value="登录" onclick='check()'>
+                    </span>
+                    <input type="button" value="注册" onclick="prom()">
+             </form>
+    </div>
+</div>
+    <script type="text/javascript">
+
+                function prom() {
+                    var con;
+                    con = confirm("注册身份是否为读者?"); //在页面上弹出对话框
+                    if (con == true) 
+                   {
+                    location.href='register.php';
+                   } 
+                  else{con = confirm("注册身份是否为作者?"); //在页面上弹出对话框
+                    if (con == true) 
+                   {
+                    location.href='a_register.php';
+                   } 
+                   else alert("那你想干嘛？")
+                }
+            }
+        function check(){
+            // 前端验证
+            var uname,pwd;
+            uname=f1.username.value;
+            pwd=f1.password.value;
+            console.log(uname,pwd);
+            if (uname.length==0) {
+                alert("用户名不能为空！");
+                return false;
+            }
+            if (pwd.length==0) {
+                alert("密码不能为空！");
+                return false;
+            }
+            f1.submit();
+        }
+    </script>
+</body>
+</html>

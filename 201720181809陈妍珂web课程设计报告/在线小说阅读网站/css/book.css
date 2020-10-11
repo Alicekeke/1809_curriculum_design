@@ -1,0 +1,303 @@
+html,
+body,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left-content {
+  width: 800px;
+  float: left;
+  margin-bottom: 60px;
+  padding-right: 40px;
+}
+
+.content-header {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  color: #333;
+  margin-left: 100px;
+}
+
+/* .content-header-popular{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    color: #333;
+  }*/
+/* .content-header-popular h2{
+    display: inline-block;
+  }  */
+.aside-item-header {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 7px;
+  color: #333;
+}
+
+.content-header h2 {
+  display: inline-block;
+}
+
+.aside-content {
+  width: 192px;
+  float: right;
+  margin-bottom: 60px;
+  margin-right: 160px;
+}
+
+.aside-item {
+  margin: 1.5px 0;
+  padding: 10px 0 10px 3px;
+  border-bottom: 1px solid #eee;
+  font-size: 12px;
+  color: #37a;
+  cursor: pointer;
+}
+
+.common-link {
+  color: #37a;
+  cursor: pointer;
+}
+
+.common-link:hover {
+  color: white;
+  background: #37a;
+}
+
+.link-title {
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.link-title a {
+  color: #37a;
+}
+
+.link-title a:hover {
+  color: white;
+  background: #37a;
+}
+
+.aside-item:hover {
+  background: #f6f6f1;
+}
+
+.book-active-subtag-item {
+  background: #f6f6f1;
+}
+
+.outer-content {
+  /* 相对于父容器相对定位 */
+  position: relative;
+  width: 100%;
+  min-width: 936px;
+  margin-bottom: 40px;
+  transition: background 0.5s ease-in-out;
+}
+
+.inner-content {
+  width: 936px;
+  margin: 0 auto;
+  padding: 10px 0 5px;
+}
+
+.nav-logo {
+  position: relative;
+  display: inline-block;
+  /* margin-left: 30px; */
+  top: 10px;
+  width: 160px;
+  height: 40px;
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search-logo {
+  width: 100px;
+  height: 40px;
+  display: inline-block;
+  margin: 0 13px 0 0;
+  color: transparent;
+  background-position: 0 12px;
+  background-repeat: no-repeat;
+}
+
+.search-target {
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.search-form {
+  position: relative;
+  /* top: 8px; */
+  padding-top: 8px;
+  padding-bottom: 20px;
+}
+
+.search-input {
+  width: 350px;
+  height: 40px;
+  border: none;
+  padding-left: 10px;
+  background: #fff;
+  outline: none;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16);
+}
+
+.search-submit {
+  width: 40px;
+  height: 40px;
+  margin: 1px 0 0 -4px;
+  vertical-align: middle;
+  border: none;
+  color: transparent;
+  /* cursor: pointer; */
+  /* outline: none; */
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16);
+  background-repeat: no-repeat;
+  background-image: url(../images/search.png);
+  background-size: cover;
+}
+
+.search-suggest {
+  position: absolute;
+  width: 360px;
+  z-index: 99;
+  margin-top: 6px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.search-item {
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+}
+
+.search-item:hover {
+  background: #F9F9F9;
+}
+
+.search-item-link {
+  display: block;
+  padding: 6px;
+  overflow: hidden;
+  zoom: 1;
+  color: #999;
+}
+
+.search-item-image {
+  width: 40px;
+  height: 56px;
+  float: left;
+  margin-right: 8px;
+  margin-top: 3px;
+}
+
+.search-item-title {
+  display: inline-block;
+  font-weight: normal;
+  color: #369;
+  font-size: 13px;
+}
+
+.search-item-author,
+.search-item-genres {
+  margin-top: 10px;
+}
+
+.carousel {
+  margin-left: 100px;
+  width: 800px;
+}
+.list-col li {
+  display: inline-block;
+  position: relative;
+  width: 120px;
+  height: 170px;
+  margin: 12px;
+}
+.list-col .book-name{
+  font-size: 12px;
+}
+/* 榜单页面 */
+.popular-books {
+  width: 800px;
+  margin-left: 100px;
+  /* margin-top: 100px; */
+  /* border: 1px solid #ccc; */
+}
+
+.popular-list {
+  /* border: 1px solid red; */
+  margin-top: 100px;
+}
+
+.popular-books .cover {
+  display: inline-block;
+  width: 130px;
+  height: 180px;
+  /* border: 1px solid #afa; */
+}
+
+.popular-books li {
+  width: 330px;
+  height: 200px;
+  /* border: 1px solid #000; */
+}
+
+.list-col .info{
+  padding-left: 20px;
+  display: inline-block;
+  position: absolute;
+  font-size: 12px;
+  
+}
+.module-list {
+  display: inline-block;
+  /* 相对于父容器绝对定位 */
+  position: absolute;
+  right: 0;
+  top: 30px;
+  left: 40px;
+  /* padding-bottom: 20px; */
+  padding-right: 100px;
+  text-align: right;
+
+}
+
+.module-list li {
+  display: inline-block;
+  margin-left: 25px;
+  padding: 2px 10px;
+  cursor: pointer;
+}
+.module-list li a{
+  text-decoration:none;
+  color: #000;
+}
+.module-list li:hover {
+  background: #DDA52D;
+  color: white;
+}
+
+.module-list li:hover .outer-more-module {
+  display: block;
+}

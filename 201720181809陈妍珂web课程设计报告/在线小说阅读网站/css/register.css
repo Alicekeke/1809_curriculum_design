@@ -1,0 +1,57 @@
+.container1{
+    background-color: #ffa;
+   /* min-height: 795px; */
+   position: relative;
+   background-size: cover;
+}
+.frmregister h2{
+    text-align: center;
+}
+.frmregister{
+  
+   border: 1px solid #e4ece4;
+   border-radius: 5px;
+   width: 22%;
+   height: 580px;
+   min-width: 500px;
+   box-shadow:0 0 5px 4px #e3e1e3;
+   position: absolute;
+   top: 10%;
+   left: 34%;
+   /* background: #fff;  */
+   opacity:0.8;
+}
+.title2{
+   margin-left: 175px;
+   margin-top: 40px;
+   font-size: 22px;
+   color: #565c81;
+}
+.label_title{
+    display: inline-block;
+    width: 60px;
+    font-size: 18px;
+    margin-left: 130px;
+  
+}
+.radio{
+   margin-left: 135px;
+}
+.birth{
+   margin-left: 130px;
+}
+.tele{
+ display: inline-block;
+    width: 60px;
+    font-size: 18px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+.label_self_intr{
+   margin-left: 120px;
+}
+.b_register{
+   width: 85px;
+   height: 30px;
+   margin-left: 205px;
+}

@@ -1,0 +1,95 @@
+.content {
+    display: inline-block;
+}
+.bookimg {
+    display: inline-block;
+    /* border: 1px solid #000; */
+}
+.info {
+    display: inline-block;
+}
+.hst img {
+    display: inline-block;
+}
+h1 {
+    color: #333;
+}
+.table td {
+    font-size: 14px;
+}
+.table {
+    margin-left: 20px;
+    /* border: 1px solid #000; */
+}
+.btnlinks a {
+    text-decoration: none;
+    color: #ccc;
+    background-color: #333;
+    height: 30px;
+    line-height: 18px;
+    padding: 3px 10px;
+    border: 2px #E5E7EA solid;
+    border-radius: 3px;
+    outline: none;
+}
+.btnlinks .btn_look_now{
+    margin-left: 40px;
+}
+.intro {
+    color: #333;
+    background-color: #ccc;
+}
+
+.intro a {
+    text-decoration: none;
+    color: #333;
+}
+.main{
+    text-align: center;
+}
+/* 框中文字 */
+.contents {
+    width: 900px;
+    height: 600px;
+  
+    border: 1px solid #E5E7EA;
+    margin:auto auto;
+    font-size: 19px;
+}
+.contents p{
+    display: inline-block;
+    margin: 30px;
+}
+.info{
+    position: relative;
+}
+.comment{
+    position: absolute;
+    width: 500px;height: 200px;
+    /* display: inline-block; */
+    margin-right: 100px;
+    margin-top: -70px;
+    top: 0;
+    left: 450px;
+    padding-right: 100px;
+}
+.text{
+    border:0;
+    border-radius:5px;
+    background-color:#E5E7EA;
+    width:400px;
+    height: 150px;
+    padding: 10px;
+    resize: none;
+}
+.main h2{
+    color: #666666;
+}
+.btn_change a{
+    text-decoration: none;
+    color: #ad6f8e;
+    font-size: 14px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
